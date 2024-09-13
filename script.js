@@ -6,46 +6,46 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Com esse pequeno encontro dos dois, Meg com toda a certeza achará que isso foi um pequeno acidente e que os dois não se encontraram tão cedo na faculdade, mas o que ela menos esperava era que ele seria seu colega de quarto. O que ela deve fazer?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Pedir para que troquem a de quarto.",
+                afirmacao: "Meg pediu para trocar de quarto para não ver o Felipe, evitando seu desconforto com a presença de Felipe."
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Ficar no quarto e fingir naturalidade.",
+                afirmacao: "Meg decidiu ficar no quarto, e tentar puxar asunto com Felipe e descobrir sobre ele."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "E com toda a sua coragem decidiu puxar assunto com Felipe, anres de sair do quarto para ver como é a faculdade. E os dois com a converça que tiveram, se deram bem? ",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Sim",
+                afirmacao: "Os dois converçaram muito e descobriram bastante um sobre o outro, e gostaram muito da compania um do outro"
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "Não",
+                afirmacao: "Quando Meg foi puchar assunto com ele, Felipe foi seco com suas resposta, e Meg não gostando disso virou as costas e foi embora"
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Meg decidiu ir ver o campo da faculdade e chamou Felipe para ir junto.Qual a foi a ressposta dele? ",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Claro que vou Meg",
+                afirmacao: "Felipe gostou da ideia e decidiu ir com ela, e aproveitou comprar um refri para os dois"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "Nem pensar",
+                afirmacao: "Ele recusa com todo o deboche que tinha, e saiu do quarto sem mais nem menos"
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Curioza para saber se eles se encontrariam durante as aulas ela perguntou se ele teria alguma aula com ela. E a resposta dele foi?",
         alternativas: [
             {
                 texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
